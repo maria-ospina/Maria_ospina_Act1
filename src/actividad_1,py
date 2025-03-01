@@ -9,7 +9,7 @@ class Actividad_1:
         ruta_actual = os.getcwd()  # Corregido
 
         self.ruta_static = "src/pad/static/"
-        self.ruta_json = "src/pad/static/json"
+        self.ruta_json = "src/pad/static/json/"
 
         # Corregido el uso de os.makedirs
         if not os.path.exists(self.ruta_json):
