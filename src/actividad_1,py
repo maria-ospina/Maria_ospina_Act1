@@ -8,7 +8,7 @@ class Actividad_1:
     def __init__(self):
         ruta_actual = os.getcwd()  # Corregido
 
-        self.ruta_static = "src\pad\actividad_1.py"
+        self.ruta_static = "src\pad\actividad_1.py/"
         self.ruta_json = "src/pad/static/json/"
 
         # Corregido el uso de os.makedirs
